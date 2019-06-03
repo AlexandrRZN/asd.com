@@ -26,4 +26,5 @@ chomp $mons;
 $interest/12;
 $total=$pmt*((1+$interest)**($mons-1))/$interest;
 print "После $mons месяцев при ежемясячной ставке $interest \n";
+
 print "у вас будет сумма $total.\n;
